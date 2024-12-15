@@ -1,67 +1,83 @@
+
+/* BRAND GUIDE: https://docs.google.com/document/d/124Wli0Rxp4GhOrrOijzznbnOfNC9kP8wOVZnPZsR2DE/edit?tab=t.0#heading=h.rz5f9gsvqqrw */
+
+* {
+  box-sizing: border-box;
+}
+
 .gulp-webpage{
-    font-family: Poppins,  sans-serif;
-    font-weight: 700
-  }
+  font-family: Poppins,  sans-serif;
+  font-weight: 700
+}
   
-  nav{
-    background-color: #131D26;
-    color: #F2F2F2;
-    
-    padding: 1%;
-    margin: 1%;
-  }
+nav{
+  background-color: #131D26;
+  color: #F2F2F2;
   
-  ul{
-    list-style-type: none;
-    display: flex;
-  }
+  padding: 1%;
+  margin: 1%;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+}
+
+ul li{
+  margin-right: 50px;
+}
+
+.aboutSection{
+  font-family: Lato, sans-serif;
+  font-weight: 400;
   
-  ul li{
-    margin-right: 50px;
-  }
+  background-color: #082B59;
+  color: #F2F2F2;
   
-  .aboutSection{
-    font-family: Lato, sans-serif;
-    font-weight: 400;
-    
-    background-color: #082B59;
-    color: #F2F2F2;
-    
-    padding: 4%;
-    margin: 1%;
-  }
+  padding: 4%;
+  margin: 1%;
+}
+
+.mapLink{
+  color: #D98555;
+}
+
+.mapLink:hover{
+  color: red;
+}
+
+.aLink:hover{
+  color: red;
+}
+
+.contactButton{
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 14px 32px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2% 3%;
   
-  .mapLink{
-    color: #D98555;
-  }
-  
-  .mapLink:hover{
-    color: red;
-  }
-  
-  .aLink:hover{
-    color: red;
-  }
-  
-  .contactButton{
-    border: none;
-    border-radius: 10px;
-    color: white;
-    padding: 14px 32px;
-    display: inline-block;
-    font-size: 16px;
-    margin: 2% 3%;
-    
-    background-color: #59331D;
-  }
-  
-  .contactButton:hover{
-    background-color: #D98555;
-    text-decoration: overline dashed;
-  }
-  
-  footer{
-    border-top: 1px solid #131D26;
-    padding: 50px;
-    text-align: center;
-  }
+  background-color: #59331D;
+}
+
+.contactButton:hover{
+  background-color: #D98555;
+  text-decoration: overline dashed;
+}
+
+/* CSS for the image that depicts water being poured into coffee pot */
+
+@media (max-width: 1023px){
+
+}
+.horizontal-coffee-img{
+  margin: 5px;
+}
+
+footer{
+  border-top: 1px solid #131D26;
+  padding: 50px;
+  text-align: center;
+}
