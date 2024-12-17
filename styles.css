@@ -1,6 +1,7 @@
 
 /* BRAND GUIDE: https://docs.google.com/document/d/124Wli0Rxp4GhOrrOijzznbnOfNC9kP8wOVZnPZsR2DE/edit?tab=t.0#heading=h.rz5f9gsvqqrw */
 
+/* Turn on the border-box model */
 * {
   box-sizing: border-box;
 }
@@ -9,7 +10,8 @@
   font-family: Poppins,  sans-serif;
   font-weight: 700
 }
-  
+
+/* Navbar styling */
 nav{
   background-color: #131D26;
   color: #F2F2F2;
@@ -27,7 +29,8 @@ ul li{
   margin-right: 50px;
 }
 
-.aboutSection{
+/* About section styling */
+.about-section{
   font-family: Lato, sans-serif;
   font-weight: 400;
   
@@ -36,6 +39,8 @@ ul li{
   
   padding: 4%;
   margin: 1%;
+
+  max-width: 45%;
 }
 
 .mapLink{
@@ -50,7 +55,8 @@ ul li{
   color: red;
 }
 
-.contactButton{
+/* contact button styling */
+.contact-button{
   border: none;
   border-radius: 10px;
   color: white;
@@ -62,19 +68,42 @@ ul li{
   background-color: #59331D;
 }
 
-.contactButton:hover{
+.contact-button:hover{
   background-color: #D98555;
   text-decoration: overline dashed;
 }
 
 /* CSS for the image that depicts water being poured into coffee pot */
 
-@media (max-width: 1023px){
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
 
+  border: 2px solid red;
 }
-.horizontal-coffee-img{
-  margin: 5px;
-}
+
+/* @media (min-width: 1023px){
+  .about-section{
+    max-width: 60%;
+  }
+} */
+
+/* @media (min-width: 451px){
+  .horizontal-coffee-img{
+    display: none;
+    margin: 5px;
+  }
+} */
+/* @media (min-width: 800px){
+  .horizontal-coffee-img{
+    display: none;
+    margin: 5px;
+  }
+} */
+
+
+
+/* Footer Styling */
 
 footer{
   border-top: 1px solid #131D26;
