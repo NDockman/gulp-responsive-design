@@ -88,18 +88,20 @@ ul li{
   }
 } */
 
-/* @media (min-width: 451px){
+
+/*@media (max-width: 800px){
   .horizontal-coffee-img{
     display: none;
     margin: 5px;
   }
-} */
-/* @media (min-width: 800px){
+}
+@media (max-width: 451px){
   .horizontal-coffee-img{
-    display: none;
+    display: block;
     margin: 5px;
   }
-} */
+}*/
+
 
 
 
