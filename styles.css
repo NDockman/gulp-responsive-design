@@ -14,7 +14,7 @@
 /* Navbar styling */
 nav{
   background-color: #131D26;
-  color: #F2F2F2;
+  
   
   padding: 1%;
   margin: 1%;
@@ -29,7 +29,49 @@ ul li{
   margin-right: 50px;
 }
 
-/* About section styling */
+ul li a{
+  color:#F2F2F2;
+}
+
+/* contact button styling */
+.contact-button{
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 14px 32px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2% 3%;
+  
+  background-color: #59331D;
+}
+
+.contact-button:hover{
+  background-color: #D98555;
+  text-decoration: overline dashed;
+}
+
+/* Home Page Styling */
+
+.homepage-paragraph{
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+
+  margin: 5% 10% 5% 10%;
+  padding: 1%;
+  background-color:#D98555;
+  text-align: center;
+}
+
+.homepage-paragraph-text-link{
+  color:#131D26;
+}
+
+.homepage-paragraph-text-link:hover{
+  color: red;
+}
+
+/* About Page styling */
 .about-section{
   font-family: Lato, sans-serif;
   font-weight: 400;
@@ -53,24 +95,6 @@ ul li{
 
 .aLink:hover{
   color: red;
-}
-
-/* contact button styling */
-.contact-button{
-  border: none;
-  border-radius: 10px;
-  color: white;
-  padding: 14px 32px;
-  display: inline-block;
-  font-size: 16px;
-  margin: 2% 3%;
-  
-  background-color: #59331D;
-}
-
-.contact-button:hover{
-  background-color: #D98555;
-  text-decoration: overline dashed;
 }
 
 /* CSS for the image that depicts water being poured into coffee pot */
